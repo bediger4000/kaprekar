@@ -1,0 +1,10 @@
+#!/bin/bash
+set -eou pipefail
+
+X=1000
+
+while (( X < 10000 ))
+do
+	./kaprekar $X
+	(( X = X + 1))
+done
