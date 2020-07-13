@@ -19,3 +19,9 @@ For example, this algorithm terminates in three steps when starting from 1234:
 Write a function that returns how many steps this will take for a given input N.
 
 ## Analysis
+
+This is a problem for a mid-level programmer.
+It doesn't require huge algorithmic knowledge,
+or knowledge of exotic data structures,
+or any particular insight.
+It does require the ability to get base-10 digits out of a base-2 number representation.
